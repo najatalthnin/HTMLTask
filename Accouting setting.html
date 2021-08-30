@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head> <title> Accounting Setting</title> 
+
+        <link rel="stylesheet" href="Styles.css">
+        <script type="text/javascript">
+            function Toggle(value){
+                switch(value){
+                    case 'General':
+                    document.getElementById('General').style.display="block";
+                    document.getElementById('Password').style.display="none";
+                    document.getElementById('Info').style.display="none";
+                    document.getElementById('Notification').style.display="none";
+                    break;
+                    case 'Password':
+                    document.getElementById('General').style.display="none";
+                    document.getElementById('Password').style.display=" block";
+                    document.getElementById('Info').style.display="none";
+                    document.getElementById('Notification').style.display="none";
+        
+                    break;
+                    case 'Info':
+                    document.getElementById('General').style.display="none";
+                    document.getElementById('Password').style.display="none";
+                    document.getElementById('Info').style.display="block";
+                    document.getElementById('Notification').style.display="none";
+                    break;
+                    case 'Notification':
+                    document.getElementById('General').style.display="none";
+                    document.getElementById('Password').style.display="none";
+                    document.getElementById('Info').style.display="none";
+                    document.getElementById('Notification').style.display="block";
+                    break;
+        }
+    }
+    </script>
+    
+    </head>
+
+    <body>
+        <div class ="Title"> <label> Account Setting </label></div>
+
+    <div class ="Divone">
+        <div class ="Divinone">
+        <div  class ="MenuItem" onclick="Toggle('General')"> <spam class="general"> General </spam> </div>
+        <div class="MenuItem" onclick="Toggle('Password')"><spam class="password"> Changed password</spam></div>
+        <div class="MenuItem" onclick="Toggle('Info')"> <spam class="info"> Info </spam></div>
+        <div class="MenuItem" onclick="Toggle('Notification')"> <spam class="nofication"> Nofication </spam></div>
+        </div>
+<div class="Divtow" id="General">
+
+
+<div style="overflow: hidden;">
+
+    <div class="divpic"> <img src = "avatar (7).png" height="80px" width="80px"> </div>
+    <div class="actionContainer">
+
+    <div  class="divupload"> <button class="upload"> Upload new photo    </button>    </div>
+
+    <div class="divreast" > <button class="reast"> Reast</button></div>
+
+<div  class="diva"><spam class="allowed"> Allowed JPG , GIF or PNG Max size of 800k</spam></div>
+
+    </div>
+</div>
+<div class="Divthree">
+ 
+
+    
+<div>
+    <span>Username</span> 
+    <div class="TextConatiner" >
+        <input type="text" class="texxtbox"/>
+    </div>
+</div>
+
+
+    
+<div class="Divv"> <span>Name</span> </div>
+<div class="TextConatine:">
+ <input type="text" class="texxtbox"></div>
+
+
+ <div class="Diiv"><span> Email</spam></div>
+    <div class="TextContiner"> <input type="text" class="texxtbox"></div>
+    
+
+
+
+
+
+
+
+
+</div> 
+<div class="divstyle">
+    
+<div class="xxx"> <spam class="font"> Your Email is not confirmed . Please check your inbox </spam></div>
+<div class="yyy"><spam class="style"> Resend confirmation </spam></div>
+
+</div>
+<div class="divvv">
+<div class="ddiv"> <spam> Company </spam></div>
+<div  class="TextContiner"> <input type="text" class="texxtbox"></div>
+<div>
+
+<div class="divbutton">
+
+<div class="divcancel"> <button> cancel</button></div>
+<div class="divsave"> <button class="savechange"> Save Change</button></div>
+
+</div>
+
+</div>
+    
+
+    
+
+
+
+
+</div>
+    </div>
+
+
+
+<div id="Password" style="display: none;">
+
+    
+
+    <div  class="divpassword">
+        <span> Current Password</span> </div>
+        <div  class="Tpassword">
+            <input type="text"  class="textboxx" />
+        </div>
+
+
+   <div class="divpassword"> <span> Change password</span> </div>
+        <div class="Tpassword" >
+            <input type="text" class="textboxx" />
+        </div>
+    
+     <div class="divpassword">  <span> Repeat New Password </span> </div>
+        <div class="Tpassword" >
+            <input type="text" class="textboxx"   />
+        </div>
+
+        <div class="divbuttontow">
+
+            <div class="divcanceltow"> <button> cancel</button></div>
+            <div class="divsavetow"> <button class="savechange"> Save Change</button></div>
+            
+            </div>
+
+        
+
+    
+    
+    
+
+
+</div>
+
+<div id="Info" style="display: none;">
+
+    <div  class="divbio">
+        <span> Bio</span> </div>
+        <div  class="Tpassword">
+            <input type="text"  class="textboxx" />
+        </div>
+
+        <div  class="divbio">
+            <span> Birthday </span> </div>
+
+            <div  class="Tpassword">
+                <input type="date"  class="textboxx" />
+            </div>
+           
+            <div  class="divbio">
+                <span> Conutry </span> </div>
+                <div  class="Tpassword">
+                <select class="textboxx">
+                    
+                    
+
+                    <option> USA </option>
+                    <option> Jordan </option>
+                </select>
+                </div>
+<div class="divcontacts"> <span class="texttype"> Contacts </span></div>
+                <div  class="divbio">
+                    <span> Phone </span> </div>
+                    <div  class="Tpassword">
+                        <input type="text"  class="textboxx" />
+                    </div>
+
+                    <div  class="divbio">
+                        <span> Website</span> </div>
+                        <div  class="Tpassword">
+                            <input type="text"  class="textboxx" />
+                        </div>
+
+                        <div class="divbuttontow">
+
+                            <div class="divcanceltow"> <button> cancel</button></div>
+                            <div class="divsavetow"> <button class="savechange"> Save Change</button></div>
+                            
+                            </div>
+                
+
+                
+
+    
+</div>
+<div< id="Notification" style="display: none;">
+    <div class="divA"> <span class="texttype"> Activity </span></div>
+<div class="divcheckbox">
+    <input type="checkbox"  /> Email me when comments  an my
+    </div>
+    <div class="divcheckbox">
+        <input type="checkbox"  /> Email me when comments  an my
+        </div>
+        <div class="divcheckbox">
+            <input type="checkbox"  /> Email me when comments  an my
+            </div>
+
+            <div class="divA"> <span class="texttype"> Application </span></div>
+            <div class="divcheckbox">
+                <input type="checkbox"  /> Email me when comments  an my
+                </div>
+                <div class="divcheckbox">
+                    <input type="checkbox"  /> Email me when comments  an my
+                    </div>
+                    <div class="divcheckbox">
+                        <input type="checkbox"  /> Email me when comments  an my
+                        </div>
+            
+                        <div class="divbuttontow">
+
+                            
+                            <div class="divsavetow"> <button class="savechangefinal"> Save Change</button></div>
+                            
+                            </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
