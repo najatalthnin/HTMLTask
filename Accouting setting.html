@@ -42,12 +42,14 @@
 
     <div class ="Divone">
         <div class ="Divinone">
-        <div  class ="MenuItem" onclick="Toggle('General')"> <spam class="general"> General </spam> </div>
-        <div class="MenuItem" onclick="Toggle('Password')"><spam class="password"> Changed password</spam></div>
-        <div class="MenuItem" onclick="Toggle('Info')"> <spam class="info"> Info </spam></div>
-        <div class="MenuItem" onclick="Toggle('Notification')"> <spam class="nofication"> Nofication </spam></div>
+        <div  class ="MenuItem" onclick="Toggle('General')"> <spam class="MenuItemstyle"> General </spam> </div>
+        <div class="MenuItem" onclick="Toggle('Password')"><spam class="MenuItemstyle"> Changed password</spam></div>
+        <div class="MenuItem" onclick="Toggle('Info')"> <spam class="MenuItemstyle"> Info </spam></div>
+        <div class="MenuItem" onclick="Toggle('Notification')"> <spam class="MenuItemstyle"> Nofication </spam></div>
         </div>
 <div class="Divtow" id="General">
+
+    
 
 
 <div style="overflow: hidden;">
@@ -63,11 +65,11 @@
 
     </div>
 </div>
-<div class="Divthree">
+<div class="divgeneral">
  
 
     
-<div>
+<div class="Diiv">
     <span>Username</span> 
     <div class="TextConatiner" >
         <input type="text" class="texxtbox"/>
@@ -77,12 +79,12 @@
 
     
 <div class="Divv"> <span>Name</span> </div>
-<div class="TextConatine:">
+<div class="TextConatiner">
  <input type="text" class="texxtbox"></div>
 
 
  <div class="Diiv"><span> Email</spam></div>
-    <div class="TextContiner"> <input type="text" class="texxtbox"></div>
+    <div class="TextConatiner"> <input type="text" class="texxtbox"></div>
     
 
 
@@ -92,21 +94,22 @@
 
 
 
-</div> 
-<div class="divstyle">
+<Divxy>
+
     
 <div class="xxx"> <spam class="font"> Your Email is not confirmed . Please check your inbox </spam></div>
 <div class="yyy"><spam class="style"> Resend confirmation </spam></div>
 
+</Divxy>
+
+
+<div class="Diiv"> <spam> Company </spam></div>
+<div  class="TextConatiner"> <input type="text" class="texxtbox"></div> 
 </div>
-<div class="divvv">
-<div class="ddiv"> <spam> Company </spam></div>
-<div  class="TextContiner"> <input type="text" class="texxtbox"></div>
-<div>
 
 <div class="divbutton">
 
-<div class="divcancel"> <button> cancel</button></div>
+<div class="divcancel"> <button class="cancelheight"> cancel</button></div>
 <div class="divsave"> <button class="savechange"> Save Change</button></div>
 
 </div>
@@ -119,38 +122,50 @@
 
 
 
-</div>
+
+    
+
+
+
+<div id="Password" class="Divtow" style="display: none;">
+
+    <div >
+    
+ 
+    <div class="Diiv"> <span>Current Password</span> </div>
+<div class="TextConatiner">
+ <input type="text" class="texxtbox"></div>
+
+    
+      
+        
+        
+            
+        <div class="Diiv"> <span>New Password</span> </div>
+        <div class="TextConatiner">
+         <input type="text" class="texxtbox"></div>
+        
+        
+         <div class="Diiv"><span> Repeat New Password</spam></div>
+            <div class="TextConatiner"> <input type="text" class="texxtbox"></div>
+
+            <div class="divbutton">
+
+                <div class="divcancel"> <button class="cancelheight"> cancel</button></div>
+                <div class="divsave"> <button class="savechange"> Save Change</button></div>
+                
+                </div>
+            
+            
+                </div>
+        
+        
+   
+    
+
     </div>
 
-
-
-<div id="Password" style="display: none;">
-
     
-
-    <div  class="divpassword">
-        <span> Current Password</span> </div>
-        <div  class="Tpassword">
-            <input type="text"  class="textboxx" />
-        </div>
-
-
-   <div class="divpassword"> <span> Change password</span> </div>
-        <div class="Tpassword" >
-            <input type="text" class="textboxx" />
-        </div>
-    
-     <div class="divpassword">  <span> Repeat New Password </span> </div>
-        <div class="Tpassword" >
-            <input type="text" class="textboxx"   />
-        </div>
-
-        <div class="divbuttontow">
-
-            <div class="divcanceltow"> <button> cancel</button></div>
-            <div class="divsavetow"> <button class="savechange"> Save Change</button></div>
-            
-            </div>
 
         
 
@@ -159,27 +174,28 @@
     
 
 
-</div>
 
-<div id="Info" style="display: none;">
+<div id="Info"  class="Divtow" style="display: none;">
 
-    <div  class="divbio">
+    <div>
+
+    <div  class="Diiv">
         <span> Bio</span> </div>
-        <div  class="Tpassword">
-            <input type="text"  class="textboxx" />
+        <div  class="TextConatiner">
+            <input type="text"  class="texxtbox" />
         </div>
 
-        <div  class="divbio">
+        <div  class="Diiv">
             <span> Birthday </span> </div>
 
-            <div  class="Tpassword">
-                <input type="date"  class="textboxx" />
+            <div  class="TextConatiner">
+                <input type="date"  class="textbox" />
             </div>
            
-            <div  class="divbio">
+            <div  class="Diiv">
                 <span> Conutry </span> </div>
-                <div  class="Tpassword">
-                <select class="textboxx">
+                <div  class="TextConatiner">
+                <select class="textbox">
                     
                     
 
@@ -187,33 +203,40 @@
                     <option> Jordan </option>
                 </select>
                 </div>
-<div class="divcontacts"> <span class="texttype"> Contacts </span></div>
-                <div  class="divbio">
+<div class="Diiv"> <span class="texttype"> Contacts </span></div>
+                <div  class="Diiv">
                     <span> Phone </span> </div>
-                    <div  class="Tpassword">
-                        <input type="text"  class="textboxx" />
+                    <div class="TextContiner">
+                
+            
+                        <input type="text"  class="texxtbox" />
                     </div>
 
-                    <div  class="divbio">
+                    <div  class="Diiv">
                         <span> Website</span> </div>
-                        <div  class="Tpassword">
-                            <input type="text"  class="textboxx" />
-                        </div>
-
-                        <div class="divbuttontow">
-
-                            <div class="divcanceltow"> <button> cancel</button></div>
-                            <div class="divsavetow"> <button class="savechange"> Save Change</button></div>
-                            
+                        <div  class="TextConatiner">
+                            <input type="text"  class="texxtbox" />
                             </div>
+
+                            <div class="divbutton">
+
+                                <div class="divcancel"> <button class="cancelheight"> cancel</button></div>
+                                <div class="divsave"> <button class="savechange"> Save Change</button></div>
+                                
+                                </div>
+                        </div>
+</div>
+                        
                 
 
                 
 
     
-</div>
-<div< id="Notification" style="display: none;">
-    <div class="divA"> <span class="texttype"> Activity </span></div>
+
+<div id="Notification"   class="Divtow" style="display: none;">
+
+    <div class="Diiv"> <span class="texttype"> Activity </span></div>
+
 <div class="divcheckbox">
     <input type="checkbox"  /> Email me when comments  an my
     </div>
@@ -223,8 +246,9 @@
         <div class="divcheckbox">
             <input type="checkbox"  /> Email me when comments  an my
             </div>
+            
 
-            <div class="divA"> <span class="texttype"> Application </span></div>
+            <div class= "Diiv"> <span class="texttype"> Application </span></div>
             <div class="divcheckbox">
                 <input type="checkbox"  /> Email me when comments  an my
                 </div>
@@ -243,6 +267,7 @@
                             </div>
     
 </div>
+
 
 
 
